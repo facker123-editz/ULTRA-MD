@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '94732343170';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '94742343170';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -21,11 +21,11 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
 global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || 'bZgghRpJ#cq9VK5M0WBGbBLTIkpuN6aQiMl40Yguo7qcwj6WmORs';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['94742343170', '94773721789']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -84,11 +84,11 @@ global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
 global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
-global.wait = '⏳'
-global.rwait = '⏳'
+global.wait = 'අනේ ඉන්ඩ...'
+global.rwait = 'තව ටිකක් අනේ ඉන්ඩ.....'
 global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌'
+global.done = 'yes utto yes'
+global.error = 'වැරදී හුත්තෝ'
 global.xmoji = '🤩'
 
 global.multiplier = 69
